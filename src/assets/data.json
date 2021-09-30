@@ -1,0 +1,48 @@
+{
+    "categories":["all", "Documentary", "Comedy", "Horror", "crime"],
+    "filterBy":["release date"],
+    "movies":[
+        {
+            "poster":"../../assets/images/film1.png",
+            "id": "1",
+            "title":"Pulp Fiction",
+            "shortInfo":"Action & Adventure",
+            "year":"2004"
+        },
+        {
+            "poster":"",
+            "id": "2",
+            "title":"Bohemian Rhapsody",
+            "shortInfo":"Drama, Biography, Music",
+            "year":"2003"
+        },
+        {
+            "poster":"",
+            "id": "3",
+            "title":"Kill Bill: Vol 2",
+            "shortInfo":"Oscar winning Movie",
+            "year":"1994"
+        },
+        {
+            "poster":"",
+            "id": "4",
+            "title":"Avengers: War of Infinity",
+            "shortInfo":"Action & Adventure",
+            "year":"2004"
+        },
+        {
+            "poster":"",
+            "id": "5",
+            "title":"Inception",
+            "shortInfo":"Action & Adventure",
+            "year":"2003"
+        },
+        {
+            "poster":"",
+            "id": "6",
+            "title":"Reservoir dogs",
+            "shortInfo":"Oscar winning Movie",
+            "year":"1994"
+        }
+    ]
+}
