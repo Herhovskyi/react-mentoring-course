@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 function Input({ id, type, className, placeholder, value, pattern, onChange, required }) {
     return (
@@ -21,6 +21,11 @@ Input.propTypes = {
     value: PropTypes.any,
     pattern: PropTypes.string,
     onChange: PropTypes.func
+}
+
+Input.defaultProps = {
+    type: "text",
+    placeholder: "Placeholder"
 }
 
 export default Input;

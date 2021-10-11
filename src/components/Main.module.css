@@ -41,14 +41,6 @@
     align-items: center;
 }
 
-.sorter select {
-    height: 20px;
-    background: none;
-    border: none;
-    text-transform: uppercase;
-    color: #fff;
-}
-
 .filter-results {
     margin: 0;
     padding: 24px 0;

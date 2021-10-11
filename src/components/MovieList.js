@@ -4,8 +4,7 @@ import MovieCard from './MovieCard';
 
 import styles from './Movies.module.css';
 
-function Movies({movies}) {
-    console.log(movies);
+function MovieList({movies}) {
     return (
         <div className={styles["movies-wrapper"]}>
             {movies.map((item) => {
@@ -18,4 +17,4 @@ function Movies({movies}) {
     );
 }
 
-export default Movies;
+export default MovieList;
