@@ -19,6 +19,7 @@
     font: 600 20px/24px Montserrat;
     text-transform: uppercase;
     color: #f65261;
+    cursor: pointer;
 }
 
 .headline {
@@ -32,11 +33,13 @@
     width: 713px;
     height: 57px;
     margin-left: 120px;
+    padding-left: 19px;
     font: 400 20px/24px Montserrat;
-    color:#fff;
+    outline: none;
     border: none;;
     border-radius: 4px;
     background: rgba(50, 50, 50, 0.8);
+    color:#fff;
     opacity: 0.7;
 }
 .search-btn{
@@ -48,4 +51,5 @@
     border: none;
     background: #F65261;
     border-radius: 4px;
+    cursor: pointer;
 }

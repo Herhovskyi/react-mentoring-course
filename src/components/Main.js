@@ -13,7 +13,7 @@ import film5Img from '../assets/images/film5.png';
 import film6Img from '../assets/images/film6.png';
 
 const data = {
-    "categories": ["all", "Documentary", "Comedy", "Horror", "crime"],
+    "categories": ["all", "Action", "Comedy", "Drama", "Fantasy", "Horror", "Mystery", "Romance", "Thriller", "Western"],
     "filterBy": ["release date"],
     "movies": [
         {

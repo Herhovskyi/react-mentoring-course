@@ -14,25 +14,35 @@
 .filter-wrapper ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 40%;
     margin: 0;
-    padding: 20px 0 0;
+    padding: 0;
     font: 500 16px/20px Montserrat;
     text-transform: uppercase;
     list-style: none;
     color: #fff;
 }
 
+.filter-wrapper ul  li{
+    margin-right: 5px;
+}
+
+.filter-wrapper ul  li:last-of-type{
+    margin-right: 0px;
+}
+
 .filter-wrapper .sorter {
     display: flex;
     justify-content: space-between;
-    font: 500 16px/20px Montserrat;
+    font: 500 12px/20px Montserrat;
     text-transform: uppercase;
     color: #fff;
 }
 
 .filter-wrapper p {
     margin-right: 31px;
+    font: 500 16px/20px Montserrat;
     opacity: 0.6;
 }
 
